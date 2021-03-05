@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300;1,400&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+
+
+/* font families
+font-family: Poppins;
+font-family: Montserrat;
+font-family: 'Tangerine', cursive;
+ */
+
+
+:root{
+    --primary2:#35c5ca;
+    --primary:#FFC107;
+    --blueback:#E4E4E4;
+    --grey:#90908F;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Poppins;
+    color: black;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:var(--blueback)
+}
+/* navbar start */
+.fff{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+ul{
+    list-style-type: none;
+}
+.container1{
+    height: 100vh;
+    width: 100%;
+}
+
+#hero{
+    background-image: url(/img/main.jpg);
+    background-size: cover;
+    background-position: center right;
+    position: relative;
+}
+
+
+header nav .fff .bar a{
+    margin-right: 1rem;
+    font-style: normal;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+header nav .fff .bar a:hover{
+    color: var(--primary);
+}
+
+/* navbar end */
+/* hero start */
+.float{
+    width: 100%;
+    height: 660px;
+}
+
+.float .left{
+    width: 65%;
+    line-height: 330px;
+    float: left;
+}
+
+.float .right{
+    width: 35%;
+    margin-top: 300px;
+    float: right;
+}
+/* hero end */
+/* hero fonts */
+
+#he6{
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 0.8em;
+    color: white;
+}
+
+#he4{
+    font-size: 1.5em;
+    font-family: 'Tangerine', cursive;
+    color: var(--primary);
+    text-indent: 10px;
+    margin-top: 5px;
+}
+
+#he1{
+    font-size: 2.5em;
+    font-family: montserrat;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-style: italic;
+    color: white
+}
+
+/* hero fonts end */
+
+/* pg2 */
+#pg2{
+    background-color:var(--blueback)
+}
+#pg2 .prta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px 0 60px 0;
+    margin: 150px 150px 0 150px;
+    box-shadow: 20px 20px 30px rgba(0 , 0, 0, 0.5)
+}
+
+/* float pg2 */
+
+.prtb{
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.box1{
+    width: 45%;
+    text-align: center;
+    float: left;
+    background-color: white;
+    margin-left: 40px;
+    padding: 30px 0 60px 0;
+    box-shadow: 20px 20px 30px rgba(0 , 0, 0, 0.5)
+
+}
+.box2{
+    width: 45%;
+    text-align: center;
+    float: right;
+    background-color: white;
+    margin-right: 40px;
+    margin-top: 20px;
+    padding: 30px 0 60px 0;
+    box-shadow: 20px 20px 30px rgba(0 , 0, 0, 0.5)
+}
+/* end of pg2 */
+
+/* pg2 fonts */
+
+#pg2 .prta h1{
+    font-weight: 700;
+    font-style: oblique;
+}
+#pg2 .prtb .box1 h1{
+    font-weight: 700;
+    font-style: oblique;
+}
+
+#pg2 .prtb .box2 h1{
+    font-weight: 700;
+    font-style: oblique;
+}
+
+
+/* pg4 float */
+
+.pg4{
+    background-color: #e4e4e4;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.left4{
+    width: 40%;
+    float: left;
+    padding-left: 130px;
+}
+.right4{
+    width: 60%;
+    float: right;
+    background-color: white;
+    height:fit-content;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-right: 60px;
+    box-shadow: 20px 20px 30px rgba(0 , 0, 0, 0.5)
+}
+ /* pg4 float end */
+
+/* pg4 txt */
+
+#p4h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+#p4h6{
+    font-size: 15px;
+    font-weight: lighter;
+}
+#p4h4{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    color: var(--grey);
+}
+
+
+/* pg4 txt end */
+
+/* pg5 */
+
+.pg5{
+    height: 100vh;
+    margin-top: 100px;
+    width: 100%;
+    padding-top: 100px;
+}
+.heading{
+    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pg5 .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px 200px;
+}
+
+.pg5 .card-wrapper .card{
+    text-align: center;
+}
+
+.pg5 .card-wrapper .card h6{
+    color: var(--grey);
+    font-weight: lighter;
+}
+
+/* pg5 fonts */
+
+#pg5h1{
+    font-size: 2rem;
+}
